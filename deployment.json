@@ -1,0 +1,8 @@
+{
+  "environment": "production",
+  "provider": "pm2",
+  "deployedAt": "2026-01-07T07:41:35.589Z",
+  "projectName": "New and Articles",
+  "version": "1.0.0",
+  "url": "https://new-and-articles.example.com"
+}

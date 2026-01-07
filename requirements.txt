@@ -1,0 +1,6 @@
+discord.utils
+pymongo
+requests
+beautifulsoup4
+discord
+dotenv

@@ -1,0 +1,29 @@
+{
+  "name": "cyber-news-discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that scrapes websites to provide cybersecurity and world news.",
+  "main": "src/index.py",
+  "scripts": {
+    "start": "pm2 start pm2.config.js",
+    "dev": "python src/index.py"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "news",
+    "scraping",
+    "cybersecurity"
+  ],
+  "author": "AI Factory",
+  "license": "MIT",
+  "dependencies": {
+    "discord.py": "^2.3.2",
+    "beautifulsoup4": "^4.12.2",
+    "requests": "^2.31.0",
+    "pymongo": "^4.6.1",
+    "python-dotenv": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  }
+}
